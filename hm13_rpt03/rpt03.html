@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+
+<head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8">
+    <title>hm13 : 나는 누구인가?</title>
+    <style>
+
+        html,
+        body {
+            width: 100%;
+			height: 100%;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        iframe{
+            border: 0;
+        }
+        a{
+			text-decoration: none;
+		}
+
+        .header {
+            text-align: center;
+            padding-top: 1px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8%;
+            background: pink;
+        }
+
+        .nav {
+            width: 25%;
+            height: 82%;
+            float: left;
+            background: rosybrown;
+        }
+      
+        .iframebox{
+            position: relative;
+            width: 100%;
+            padding-bottom: 82%;
+        }
+        .iframebox iframe{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .aside {
+            width: 25%;
+            height: 82%;
+            float: right;
+            background: yellow;
+           
+        }
+
+        .footer {
+            position: fixed;
+            width: 100%;
+            height: 8%;
+            clear: both;
+            background: rosybrown;
+            bottom: 0; 
+        }
+        #left{
+			text-align: center;
+			height: 35px;
+            background: pink;
+        }
+        #left ul{
+            margin:0;
+            padding: 0;
+            width:100%;
+        }
+        #left ul li{
+            display: inline;
+            list-style-type:none;
+            padding:0px 15px;
+        }
+        #left ul li a{
+			font-size: 14pt;
+            color:whitesmoke;
+            text-decoration:none
+        }
+        #left ul li a:hover{
+            color: plum;
+        }
+     
+
+    </style>
+    <script></script>
+</head>
+
+<body>
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    
+    <header class="header">
+        <h1><a class="multiEffect" href="info.html" target="myframe">[ HM13's Homepage ] </a></h1>
+    </header>
+    <nav id="right">
+        <ul>
+            <li><a class="blurText" href="info.html" target="myframe">Hm13 info</a></li>
+            <li><a class="blurText" href="daily.html" target="myframe">Hm13 Daily</a></li>
+            <li><a class="blurText" href="best_movie.html" target="myframe">My Best Movies</a></li>
+            <li><a class="blurText" href="club.html" target="myframe">My Club</a></li>
+            <li><a class="blurText" href="xmas invitatiom.html" target="myframe">X-Mas 파티 초대장</a></li>													
+        </ul>
+
+    <section class="section">
+        <article>	
+            <div class="iframebox">
+            <iframe src="info.html" name="myframe" allowfullscreen> <!--width="850" height="757"-->
+            </iframe>
+            </div>		
+        </article>
+    </section>
+    <footer class="footer">
+        <p id="hm18" class="blurText" style="font-size: 15pt; text-align: align; font-style: unset; color: whitesmoke;">
+            HM13<br>20203130 최민석
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>

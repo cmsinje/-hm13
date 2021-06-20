@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>hm13 : details와 summary 태그</title>
+		<style>
+			a{
+                text-decoration: none;
+                color:darkblue;
+            }
+			.wordArtEffect {
+				color: black;
+				text-shadow: 0px 0px 3px pink;
+			}
+			.wordArtEffect2 {
+				color: black;
+				text-shadow: 0px 0px 3px aquamarine;
+			}
+			
+			span{
+				color: red;
+				text-shadow: 0px 0px 3px whitesmoke;
+			}
+			span:hover{
+				font-size: 120%;
+			}
+		</style>
+		<script></script>
+	</head>
+
+	<body>
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<h1 class="multiEffect">동아리 정보</h1>
+		<img style="margin-left: 25%;" src="media/여우비.jpeg">
+		<br>
+		<p style="text-align: center; font-size: 15pt;"><strong> 인제대 여우비 동아리 모집</strong></p>
+		<hr style="width: 300px;">
+		<details>				
+			<summary><strong>여우비 소개</strong></summary>
+			<p class="wordArtEffect">
+				2학기에도 학교에 못가서 너무 답답하시죠?<br>
+				재밌고_의미있는 대학생활할 수 있는 동아리 찾고 있다면!<br>
+				바로 인제대 여우비 겨레하나입니다!~<br>
+				일본군 <span>'위안부 피해자'</span>, <span>강제동원피해자분들</span>과 만나고<br>
+				함께하는 동아리!<br>
+				<span>인제대학교 신입생,재학생</span>모두 참여하실 수 있습니다.
+				
+			</p>
+		</details>
+
+		<details>
+			<summary><strong>가입조건</strong></summary>
+
+			<p class="wordArtEffect2">
+				1. 인제대학생<br>
+				2. 역사에 관심이 많은 학생
+				
+			</p>
+		</details>
+		<br>
+		
+	</body>
+
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hm13 : daily </title>
+    <style>
+      * {
+        margin: 0; padding: 0;
+        }
+      body {
+        background: whitesmoke; height: 200%;
+        }
+      h1 {
+        text-align: center; color:pink;
+        ;
+        }
+      div.box {
+        background: whitesmoke; width: 700px; height: 600px; margin-left: -350px;
+        position: fixed; top: 75px; left: 50%; box-shadow: 30px 20px #8496B3;
+        }
+      table {
+        border-collapse: collapse;
+        }
+      td, th {
+        text-align: center; padding: 5px; height: 40; width: 300px;
+        }
+      th:hover{
+        background: pink;
+      }
+      thead {
+        background: pink;
+        }
+      tbody tr:nth-child(even) {
+        background: greenyellow;
+        }
+      .blurText{
+				text-shadow: -1px 1px 1px black;
+			}
+			.blurText2{
+        color:paleturquoise;
+				text-shadow: 0px 1px 4px black;
+			}
+      .multiEffect {
+				color: white;
+				text-shadow: 2px 2px 2px black, 0 0 25px tomato, 0 0 5px tomato;
+			}
+      a {
+        text-decoration: none;
+				position: absolute; /* 절대 배치 */
+      }
+    </style>
+    <script></script>
+  </head>
+
+  <body>
+    
+        
+        <table>
+          <thead>
+            <tr><th class="blurText2">시작 시간</th><th class="blurText2">끝 시간</th><th class="blurText2">일과</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>08:00 </th><th>09:00 </th><th>기상</th></tr>
+            <tr><th>09:20 </th><th>10:00 </th><th>씻기</th></tr>
+            <tr><th>10:00 </th><th>11:00 </th><th>1교시</th></tr>
+            <tr><th>11:00 </th><th>12:00 </th><th>2교시</th></tr>
+            <tr><th>12:00 </th><th>02:00 </th><th>점심시간</th></tr>
+            <tr><th>02:00 </th><th>03:00 </th><th>5교시</th></tr>
+            <tr><th>03:30 </th><th>05:30 </th><th>6교시, 운동하기</th></tr>
+            <tr><th>05:30 </th><th>7:00 </th><th>저녁</th></tr>
+            <tr><th>07:00 </th><th>8:30 </th><th>보충수업, 과제</th></tr>
+            <tr><th>08:30 </th><th>10:00 </th><th>휴식</th></tr>
+            <tr><th>10:00 </th><th>08:00 </th><th>취침</th></tr>
+          </tbody>
+          
+        </table>
+      </div>
+     
+  </body>
+</html>
